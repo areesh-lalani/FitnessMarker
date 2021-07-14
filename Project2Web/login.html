@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Login</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="#">
+	<link rel="stylesheet" href="styles/login.css" />
+	<link rel="stylesheet" href="styles/theme.css" />
+
+</head>
+
+<body class="backgroundimg">
+	<div class="loginbox">
+		<h2>LOGIN</h2>
+		<br />
+		<form id="login" method="get" action="">
+			<label><b>Username<b style="color: red">*</b></b> </label>
+			<input type="text" name="uname" id="username" class="inputfield" autocomplete="off" placeholder="Username" />
+			<br /><br />
+
+			<label><b>Password<b style="color: red">*</b></b> </label>
+			<input type="password" name="pass" id="password" class="inputfield" placeholder="Password" />
+			<br> <br>
+
+			<input type="button" name="loginbtn" id="loginbtn" class="submitbtn" value="Sign In" />
+			<br> <br>
+
+			<input type="button" name="signupbtn" id="signupbtn" class="submitbtn" value="Create a new account" />
+			<br><br>
+			<div class="errorfield" id="loginerror"></div>
+		</form>
+	</div>
+</body>
+
+<script src="scripts/login.js"> </script>
+
+</html>
